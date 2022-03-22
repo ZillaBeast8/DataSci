@@ -1,0 +1,17 @@
+---
+title: "AndresTest"
+author: "Me lol"
+date: "3/22/2022"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+x <- rnorm( 100)
+hist (x)
+```
+
+![](Skeet.jpg){=80%}
